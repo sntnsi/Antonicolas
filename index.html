@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chatbot — Évolution de l'IA</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+<header>
+<h1>Chatbot — Évolution de l'IA</h1>
+<p class="subtitle">Demandez-moi l'histoire : ELIZA, PARRY, ALICE, Siri, et plus.</p>
+</header>
+
+
+<section id="chat" class="chat">
+<div id="messages" class="messages"></div>
+
+
+<div class="quick-actions">
+<button data-topic="timeline">Afficher la timeline</button>
+<button data-topic="eliza">ELIZA</button>
+<button data-topic="parry">PARRY</button>
+<button data-topic="alice">ALICE</button>
+<button data-topic="siri">Siri</button>
+<button data-topic="modern">IA moderne</button>
+</div>
+
+
+<form id="form" class="composer">
+<input id="input" type="text" placeholder="Écrivez votre question... (ex: Qui est ELIZA ?)" autocomplete="off">
+<button type="submit">Envoyer</button>
+</form>
+</section>
+
+
+<aside class="notes">
+<h2>Mode d'emploi</h2>
+<ul>
+<li>Posez des questions sur l'histoire de l'IA.</li>
+<li>Utilisez les boutons rapide pour explorer des figures clefs.</li>
+<li>Le chatbot fournit un résumé + dates importantes.</li>
+</ul>
+</aside>
+
+
+<footer>
+<small>Prototype pédagogique — Contenu généré localement</small>
+</footer>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
